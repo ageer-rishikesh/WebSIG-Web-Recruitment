@@ -1,0 +1,78 @@
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: #f1f5f9;
+}
+
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #264653;
+  color: white;
+}
+
+
+#logo {
+  font-size: 20px;
+}
+
+#menu {
+  display: flex;
+}
+
+#menu p {
+  margin-left: 15px;
+}
+
+
+#hero {
+  height: 40vh;
+  text-align: center;
+  padding: 20px;
+  background-color: #2A9D8F;
+}
+
+#about {
+  padding: 20px;
+  margin: 10px;
+}
+
+
+#skills {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+
+#skill1,#skill2,#skill3,#skill4,#skill5,#skill6{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: #E9C46A;
+  text-align: center;
+  position:inline;
+  radius:25px;
+}
+
+#contact {
+  padding: 20px;
+  background-color: #cbd5e1;
+}
+
+@media (max-width: 600px) {
+  #skills {
+    flex-direction: column;
+    align-items: center;
+  }
+
+#navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+}
